@@ -57,6 +57,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     width: 500px;
     background-color: #FDDAAD;
 }
@@ -94,6 +95,11 @@ body{
     width: 550px;
     box-shadow: 0.3em 0.3em 0 #AE7B37;
     border: 10px solid white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cafe-photo:hover{
+    transform: scale(1.05);
 }
 
 .info{
@@ -114,7 +120,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 28px;
 }
 
 .specs{
@@ -124,18 +130,23 @@ body{
     font-size: 16px;
     font-weight: 200;
     color: white;
-    width: 200px;
+    width: 15%;
     background-color: #e5b74a;
     padding: 32px;
     text-align: center;
     border-radius: 20px;
     box-shadow: 0.5em 0.5em 0 #AE7B37;
+    transition: transform 0.3s ease-in-out;
 }
 
 .specs img{
     width: 200px;
     height: auto;
     border-radius: 20px;
+}
+
+.specs:hover {
+    transform: scale(1.05); /* Scales the whole element and its contents */
 }
 
 .quote{
@@ -237,4 +248,12 @@ body{
 
 .footer a:hover{
     color: #AE7B37;
+}
+
+button{
+    transition: transform 0.1s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.05);
 }
