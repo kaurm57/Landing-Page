@@ -11,5 +11,6 @@ Welcome to the repository for Cafe Luna, a hypothetical cafe website created as 
 ## Disclaimer
 
 This project is purely fictional. The names and images used do not claim any ownership and are purely for demonstration purposes.
+The logo was designed using Canva and was inspired by @roseberrydesign's design template.
 
 Check it out [here](https://kaurm57.github.io/landing-page/)!
